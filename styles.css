@@ -1,39 +1,95 @@
-html{
+   body{
+        margin: 0;
+        background-color: black;
+    }
+    .canvasbox{
+        width: 100%;
+        background-color: rgb(177, 177, 177);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .header{
+        /* width: 20%; */
+        padding:10px 20px;
+        color: rgb(135, 57, 213);
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    #can {
+        margin: 30px;
+    }
 
-}
-body{
-    margin: 0;
-    background-color: black;
-}
-.canvasbox{
-    width: 100%;
-    background-color: rgb(206, 206, 206);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header{
-    width: 400px;
-    padding:10px 20px;
-    color: blueviolet;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    #exbox{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .scorebox{
+        border: 4px solid rgb(63, 63, 63);
+        height: 40px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
 
-#can {
-    margin: 30px;
-}
+    #touchbox{
+        width: 180px;
+        height: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #lbox{
+        background-color: rgb(62, 62, 62);
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 
-.scorebox{
-    height: 600px;
-    display: flex;
-    align-items: flex-end;
-}
+    #sbox{
+        background-color:  rgb(62, 62, 62);
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-#score{
-    border: 4px solid rgb(63, 63, 63);
-    padding: 3px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    #rbox{
+        background-color:  rgb(62, 62, 62);
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #dbox{
+        background-color:  rgb(62, 62, 62);
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #score{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
