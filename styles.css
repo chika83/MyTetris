@@ -9,6 +9,8 @@
         background-color: black;
         -ms-touch-action: manipulation;
         touch-action: manipulation;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
     }
     .canvasbox{
         width: 100%;
