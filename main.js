@@ -3,6 +3,11 @@
 
 {
     document.getElementById("score");
+    
+    const left = document.getElementById("left");
+    const senter = document.getElementById("senter");
+    const down = document.getElementById("down");
+    const right = document.getElementById("right");
     //スコア初期値
     let linec = 1;
     //落ちるスピード
@@ -308,4 +313,17 @@
          }
          drawAll();
      }
+     left.addEventListener("touchstart", () => {
+            if( checkMove( -1, 0))tetro_x--;
+        });
+        senter.addEventListener("touchstart", () => {
+            let ntetro = rotate();
+            if( checkMove (0,0,ntetro))tetro = ntetro;
+        });
+        right.addEventListener("touchstart", () => {
+            if( checkMove( 1, 0))tetro_x++;
+        });
+        down.addEventListener("touchstart", () => {
+            if( checkMove( 0, 1))tetro_y++;
+        });
 }
