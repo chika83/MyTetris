@@ -1,16 +1,12 @@
 
     html {
-        -ms-touch-action: manipulation;
         touch-action: manipulation;
     }
   
     body{
         margin: 0;
         background-color: black;
-        -ms-touch-action: manipulation;
         touch-action: manipulation;
-        -webkit-touch-callout:none;
-        -webkit-user-select:none;
     }
     .canvasbox{
         width: 100%;
@@ -54,6 +50,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        touch-action: manipulation;
     }
     #lbox{
         background-color: rgb(62, 62, 62);
