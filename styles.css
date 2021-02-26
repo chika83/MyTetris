@@ -51,6 +51,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         touch-action: manipulation;
+        user-select: none;
     }
     #lbox{
         background-color: rgb(62, 62, 62);
